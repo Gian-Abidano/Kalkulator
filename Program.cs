@@ -57,8 +57,9 @@
                         // angka2 = int.Parse(Console.ReadLine());
                         angka1 = MemasukkanAngka(pertama);
                         angka2 = MemasukkanAngka(kedua);
-                        hasil = angka1 / angka2;
-                        Console.WriteLine($"Hasilnya adalah {hasil}");
+                        float hasilBagi;
+                        hasilBagi = (float)angka1 / (float)angka2;
+                        Console.WriteLine($"Hasilnya adalah {hasilBagi}");
                         break;
                     case 0:
                         Console.WriteLine($"Terima kasih sudah memakai kalkulator ini!");
